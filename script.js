@@ -50,9 +50,12 @@ console.log('Round ' + round + ' is over.');
 round++;
     }
 // Player HP Count for Debugging
+/*    
     console.log('The Troll has ' + trollKing.health);
     console.log('The Hero has ' + hero.health);
+*/
         }
+
 ////////////////////////////////// End of Battle Engine
     
 // Weapon Select
