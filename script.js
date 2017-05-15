@@ -8,7 +8,7 @@ var hero = {
     damage: 0,
     }
 var trollKing = {
-    health: 100,
+    health: 80,
     attack: 15,
 }
 
@@ -60,14 +60,14 @@ round++;
     
 // Weapon Select
 console.log('You wake up in a cave dangling from the ceiling. Skulls and the sharp points of old bones riddle the floor. You can remember picking magic mushrooms in the woods. Maybe you got to close to the Troll King\'s cave. There has got to be a way out of here. You can see your sword nearby. On the other side you see a knobby stick.');
-var weapon = prompt('Which tool do you take? The sword or the stick?');
+var weapon = prompt('Which tool do you take? Type "sword" or "stick" below.');
 if (weapon === 'stick') {
     console.log('You reach for the odd shaped stick until it\'s in your grasp. As you grip it you realize that this is actually a fire staff. Trolls hate fire. Well played, hero.');
     weapon = 'fire staff';
     hero.attack = 20;
 } else if (weapon === 'sword') {
     console.log('Predictable, but effective. This is your trusty ' + weapon + ' you\'ve used in many battles. ');
-    hero.attack = 10; 
+    hero.attack = 15; 
 } else if (weapon === 'pineapple pen') {
     console.log('You are a god. A demon king wielding the mighty ' + weapon + '. The ground trembles below you. You have chosen, wisely.');
     hero.attack = 150; 
